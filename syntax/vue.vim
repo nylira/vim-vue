@@ -37,7 +37,6 @@ if s:syntaxes.jade
   syntax include @JADE syntax/jade.vim
   unlet b:current_syntax
   syntax region jade keepend start=/<template lang="[^"]*jade[^"]*">/ end="</template>" contains=@JADE fold
-  syntax region jade keepend start=/<template lang="[^"]*jade[^"]*">/ end="</template>" contains=@JADE fold
 endif
 
 syntax include @JS syntax/javascript.vim
